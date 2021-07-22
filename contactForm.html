@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <main class="container mt-5">
+        <h1 class="text-light text-center">Contact Me</h1>
+        <div class="bg-light p-2 border border-2 shadow-lg">
+            <form action="#">
+
+            
+            <div class="row">
+                <div class="col">
+                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <input type="text" name="firstName" class="form-control" id="inputFirstName" placeholder="First name" aria-label="First Name" required>
+                </div>
+                <div class="col">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" name="lastName" class="form-control" id="inputLastName" placeholder="Last name" aria-label="Last Name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email" aria-label="Email" required>
+                </div>
+                <div class="col">
+                    <label for="inputPhone" class="form-label">Phone (optional)</label>
+                    <input type="text" name="phone" class="form-control" id="inputPhone" placeholder="Phone" aria-label="Phone Number optional">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="inputSubject" class="form-label">Subject</label>
+                    <input type="text" name="subject" class="form-control" id="inputSubject" placeholder="Subject" aria-label="Subject" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="inputPhone">Message</label>
+                    <textarea name="message" id="message" class="form-control" placeholder="Message" class="form-label" aria-label="Message" required></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2" aria-label="Submit Button">Submit</button>
+        </form>
+        </div>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
